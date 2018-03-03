@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/mtib0"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib2"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/mtib1"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib3"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/mtib2"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib4"
+        android:layout_below="@+id/mtib0"
+        android:layout_toStartOf="@+id/mtib1"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib5"
+        android:layout_below="@+id/mtib0"
+        android:layout_toEndOf="@+id/mtib0"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib6"
+        android:layout_alignTop="@+id/mtib5"
+        android:layout_toEndOf="@+id/mtib5"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="99dp"
+        android:id="@+id/mtib7"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/mtib2"
+        android:layout_toEndOf="@+id/mtib2"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib8"
+        android:layout_below="@+id/mtib4"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib9"
+        android:layout_below="@+id/mtib4"
+        android:layout_toEndOf="@+id/mtib8"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib10"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/mtib9"
+        android:layout_toEndOf="@+id/mtib9"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib11"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/mtib6"
+        android:layout_toEndOf="@+id/mtib6" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib12"
+        android:layout_below="@+id/mtib8"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib13"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/mtib12"
+        android:layout_toEndOf="@+id/mtib12"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib14"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_above="@+id/mtib17"
+        android:layout_toEndOf="@+id/mtib13"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib15"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/mtib10"
+        android:layout_toEndOf="@+id/mtib10"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib16"
+        android:layout_below="@+id/mtib12"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib17"
+        android:layout_below="@+id/mtib13"
+        android:layout_toEndOf="@+id/mtib16"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib18"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/mtib15"
+        android:layout_toStartOf="@+id/mtib15"
+        android:layout_marginTop="1dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/mtib19"
+        android:layout_marginLeft="1dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/mtib15"
+        android:layout_toEndOf="@+id/mtib14"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="are you ready?"
+        android:id="@+id/mttv1"
+        android:textSize="70dp"
+        android:background="#ffffff"
+        android:textAlignment="center"
+        android:layout_below="@+id/mtib0"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="yes"
+        android:id="@+id/mtbtn1"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_alignBottom="@+id/mtib12"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

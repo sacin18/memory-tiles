@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sacin.remembertiles">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/game_suite_icon"
+        android:label="game suite"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GameSelector">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:screenOrientation="portrait"
+        </activity>
+        <activity android:name=".RememberTiles">android:screenOrientation="portrait"</activity>
+        <activity android:name=".RememberImages">android:screenOrientation="portrait"</activity>
+        <activity android:name=".MemoryTiles">android:screenOrientation="portrait"</activity>
+    </application>
+
+</manifest>

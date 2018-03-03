@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sacin.remembertiles.GameSelector"
+    android:background="@drawable/background"
+    android:backgroundTint="#96ffffff"
+    android:backgroundTintMode="src_atop">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play remember tiles"
+        android:id="@+id/btnSel1"
+        android:layout_gravity="center_horizontal"
+        android:width="300dp"
+        android:height="100dp"
+        android:layout_marginTop="100dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play remember images"
+        android:id="@+id/btnSel2"
+        android:layout_gravity="center_horizontal"
+        android:width="300dp"
+        android:height="100dp"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play memory tiles"
+        android:id="@+id/btnSel3"
+        android:layout_gravity="center_horizontal"
+        android:width="300dp"
+        android:height="100dp"
+        android:layout_marginTop="50dp" />
+</LinearLayout>

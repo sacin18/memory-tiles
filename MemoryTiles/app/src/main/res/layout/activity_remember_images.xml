@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="#96ffffff"
+    android:backgroundTintMode="src_atop"
+    android:scaleType="center"
+    android:id="@+id/rlri">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/iv0"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="1dp"
+        android:background="#000000"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ivriright"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/iib0"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:background="#000000"
+        android:padding="1dp" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/iib1"
+        android:visibility="invisible"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="230dp"
+        android:background="#000000"
+        android:padding="1dp" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/iib2"
+        android:visibility="invisible"
+        android:layout_below="@+id/iib0"
+        android:layout_alignStart="@+id/iib0"
+        android:layout_marginTop="30dp"
+        android:background="#000000"
+        android:padding="1dp" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/iib3"
+        android:visibility="invisible"
+        android:layout_below="@+id/iib1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="230dp"
+        android:background="#000000"
+        android:padding="1dp" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/iib4"
+        android:visibility="invisible"
+        android:layout_below="@+id/iv0"
+        android:layout_marginLeft="50dp"
+        android:background="#000000"
+        android:padding="1dp" />
+
+    <ImageButton
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/iib5"
+        android:visibility="invisible"
+        android:layout_below="@+id/iv0"
+        android:layout_marginLeft="230dp"
+        android:background="#000000"
+        android:padding="1dp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:text="are you ready?"
+        android:id="@+id/tvri1"
+        android:textSize="100dp"
+        android:textAlignment="center"
+        android:background="#00ffffff"
+        android:alpha="1"
+        android:textColor="#000000"
+        android:layout_below="@+id/iib0"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="start"
+        android:id="@+id/bri1"
+        android:textSize="50dp"
+        android:layout_below="@+id/tvri1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
